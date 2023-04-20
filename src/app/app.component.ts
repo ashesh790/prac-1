@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'prac-1';
+  name() {
+    alert("Clicked boy")
+    return "Sachin";
+  }
 }
